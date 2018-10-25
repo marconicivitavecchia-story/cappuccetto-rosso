@@ -5,14 +5,6 @@ void setup() {
   fullScreen();
 }
 
-boolean isCapInHouse(int x, int houseStart, int houseWidth) {
-  if ( (x > houseStart) && (x < houseStart+houseWidth) ) {
-    return true;
-  } else {
-    return false;
-  }
-}
-
 void draw() {
   background(#00FF00);
   
@@ -23,14 +15,7 @@ void draw() {
   // draw cappuccetto rosso
   fill(#FF0000);
   rect(x, height/2, 30, 30);
-  
-  if (isCapInHouse(x, width-150, 100)) {
-    fill(#000000);
-    textSize(30);
-    text("Che bocca grande che hai!", width/2,50);
-  } else {
-    x = x+xStep;
-  }
+  x = x+xStep;
 
   
 }
