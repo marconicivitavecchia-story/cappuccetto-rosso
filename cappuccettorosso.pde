@@ -1,5 +1,5 @@
 int x = 0;
-int xStep = width/30;
+int xStep = 8;
 
 void setup() {
   fullScreen();
