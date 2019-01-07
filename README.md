@@ -11,5 +11,9 @@ See also the course: https://wbigger.github.io/book-programming/
 ### US-1
 Cappuccetto Rosso wants to reach the house beyond the woods to visit her sick grandmother.
 
+## Design
+![design](./pr-design.png)
+
 ## Screenshots
 ![screenshot](./Screenshot_20190103-154935.png)
+![animation](./08-pr-final.gif)
